@@ -11,3 +11,6 @@ class Application
       item = @@items.find{|i| i.name == item_name}
       
       resp.write item.name
+    end
+    
+    resp finish
