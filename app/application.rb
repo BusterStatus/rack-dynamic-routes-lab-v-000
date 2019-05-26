@@ -13,6 +13,7 @@ class Application
       resp.write item.name
     else
       resp.write "Route not found"
+      resp.status = 404
     end
     
     resp.finish
