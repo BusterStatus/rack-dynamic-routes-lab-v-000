@@ -13,4 +13,7 @@ class Application
       resp.write item.name
     end
     
-    resp finish
+    resp.finish
+  end
+  
+end
